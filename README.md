@@ -4,11 +4,9 @@ O projeto **zup-web-robotframework** é uma automação de testes web do site [Z
 ## Como usar
 Para usar o projeto, basta clonar o repositório na sua máquina e abrir na sua IDE preferida.
 
-Nos diretório [/tests](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/tests) encontra-se os cenários de testes da aplicação web, enquanto que o [/resources](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/resources) possui a declaração desses cenários.
+No diretório [/tests](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/tests) encontra-se os cenários de testes da aplicação web, enquanto que o [/resources](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/resources) possui a declaração desses cenários.
 
-Para executar o projeto, certifique-se de que tem baixado e configurado na sua máquina o Robot Framework, Python e a biblioteca SeleniumLibrary.
-
-Para mais informações, consulte a seção "Referências".
+Para executar o projeto, certifique-se de que tem baixado e configurado na sua máquina o Robot Framework, Python e a biblioteca SeleniumLibrary. Para mais informações, consulte a seção "Referências".
 
 Abra o terminal e execute o comando ``robot -d results/ tests/``, a sua saída deverá ser algo parecida com isso:
 
@@ -40,7 +38,7 @@ Report:  C:\Users\{user}\PycharmProjects\zup-web-robotframework\results\report.h
 O arquivo `/report.html` deverá ser criado no diretório [results/](https://github.com/tiagocbarbosa/zup-web-robotframework/tree/main/results) após a execução dos testes com o Robot Framework, e você poderá verificar o log de testes no relatório.
 
 ## Evoluções
-- Criar os cenários que validam o redirecionamento para as redes sociais da ZUP quando o usuário clica nos ícones dos sites.
+- Criar os cenários de testes que validam o redirecionamento para as redes sociais da ZUP quando o usuário clica nos ícones dos sites.
 
 ## Tecnologias
 - Robot Framework
