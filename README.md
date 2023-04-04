@@ -6,7 +6,7 @@ Para usar o projeto, basta clonar o repositório na sua máquina e abrir na sua 
 
 No diretório [/tests](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/tests) encontra-se os cenários de testes da aplicação web, enquanto que o [/resources](https://github.com/itau-corp/itau-nb3-modules-automacao-apis/tree/main/resources) possui a declaração desses cenários.
 
-Para executar o projeto, certifique-se de que tem baixado e configurado na sua máquina o Robot Framework, Python e a biblioteca SeleniumLibrary. Para mais informações, consulte a seção [Referências](https://github.com/tiagocbarbosa/zup-web-robotframework#Refer%C3%AAncias).
+Para executar o projeto, certifique-se de que tem baixado e configurado na sua máquina o Python, Robot Framework e a biblioteca SeleniumLibrary. Para mais informações, consulte a seção [Referências](https://github.com/tiagocbarbosa/zup-web-robotframework#Refer%C3%AAncias).
 
 Abra o terminal e execute o comando ``robot -d results/ tests/``, a sua saída deverá ser algo parecida com isso:
 
