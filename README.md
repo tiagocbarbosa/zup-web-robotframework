@@ -1,5 +1,5 @@
 # zup-web-robotframework
-O projeto **zup-web-robotframework** é uma automação de testes web do site [Zup Innovation](https://www.zup.com.br/) utilizando as tecnologias Robot Framework e Python.
+O projeto **zup-web-robotframework** é uma automação de testes web do site [Zup Innovation](https://www.zup.com.br/) utilizando as tecnologias Robot Framework, SeleniumLibrary e Python.
 
 ## Como usar
 Para usar o projeto, basta clonar o repositório na sua máquina e abrir na sua IDE preferida.
@@ -42,6 +42,7 @@ O arquivo `/report.html` deverá ser criado no diretório [results/](https://git
 
 ## Tecnologias
 - Robot Framework;
+- SeleniumLibrary;
 - Python.
 
 ## Referências
