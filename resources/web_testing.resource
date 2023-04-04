@@ -5,11 +5,11 @@ Library    BuiltIn
 *** Variables ***
 ${URL}  https://www.zup.com.br
 ${HEADER_HOME}   //h2[@class='elementor-heading-title elementor-size-default'][contains(.,'Modernizee evoluaseu negóciocom a Zup')]
-${MENU_SOBRE}   //html[1]/body[1]/div[1]/section[1]/div[2]/div[2]/div[1]/div[4]/div[1]/nav[1]/ul[1]/li[1]/a[1]
+${MENU_SOBRE}   //html[1]/body[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[4]/div[1]/nav[1]/ul[1]/li[1]/a[1]
 ${HEADER_SOBRE}     //h1[@class='elementor-heading-title elementor-size-default'][contains(.,'Nós criamos tecnologia!')]
-${MENU_CULTURA}     //html[1]/body[1]/div[1]/section[1]/div[2]/div[2]/div[1]/div[4]/div[1]/nav[1]/ul[1]/li[2]/a[1]
+${MENU_CULTURA}     //html[1]/body[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[4]/div[1]/nav[1]/ul[1]/li[2]/a[1]
 ${HEADER_CULTURA}    //h1[@class='elementor-heading-title elementor-size-default'][contains(.,'Cultura Zup')]
-${BUTTON_EN}    //html/body/div[1]/section[1]/div[2]/div[2]/div/div[2]/div/a
+${BUTTON_EN}    //html[1]/body[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/a[1]
 ${HEADER_PRINCIPAL_ENG}     //h2[@class='elementor-heading-title elementor-size-default'][contains(.,'Sharpen up your business and evolve with Zup')]
 ${ITEM_YOUTUBE}     //a[contains(.,'Acesse nosso Youtube ➔')]
 
